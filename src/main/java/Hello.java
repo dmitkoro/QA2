@@ -12,10 +12,10 @@ public class Hello {
                 System.out.print("Enter a number: ");
                 int num = reader.nextInt();
 
-                if(num % 2 == 0)
-                    System.out.println(num + " is even");
-                else
+                if(num % 2 != 0)
                     System.out.println(num + " is odd");
+                else
+                    System.out.println(num + " is even");
             }
 
 
